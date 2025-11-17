@@ -9,7 +9,7 @@ import Projects from "./components/Projects";
 import Achivements from "./components/Achivements";
 import { Separator } from "./components/ui/separator";
 import Footer from "./components/Footer";
-import Certifications from "./components/Certifications.jsx";
+import Certifications from "./components/Certifications";
 import logo from "./assets/logo.svg";
 import img1 from "../src/assets/img1.png";
 import img2 from "../src/assets/img2.png";

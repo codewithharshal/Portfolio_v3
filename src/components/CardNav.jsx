@@ -179,7 +179,9 @@ const CardNav = ({
             className="card-nav-cta-button hidden md:inline-flex border-0 rounded-[calc(0.75rem-0.2rem)] px-4 items-center h-full font-medium cursor-pointer transition-colors duration-300"
             style={{ backgroundColor: buttonBgColor, color: buttonTextColor }}
           >
-            <a href="http://">Get Resume</a>
+            <a href="https://drive.google.com/file/d/1lwk-rn2smwljhar2ONip354LWbFXPYLR/view?usp=sharing">
+              Get Resume
+            </a>
           </button>
         </div>
 
