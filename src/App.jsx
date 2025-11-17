@@ -9,7 +9,7 @@ import Social from "./components/Social";
 import Projects from "./components/Projects";
 import img1 from "../src/assets/img1.png";
 import img2 from "../src/assets/img2.png";
-import Certifications from "./components/certifications";
+import Certifications from "./components/Certifications";
 import Achivements from "./components/Achivements";
 import { Separator } from "./components/ui/separator";
 import Footer from "./components/Footer";
