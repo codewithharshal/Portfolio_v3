@@ -1,18 +1,18 @@
 import DotGrid from "./components/DotGrid";
 import CardNav from "./components/CardNav";
-import logo from "./assets/logo.svg";
-import Hero from "./components/Hero";
 import Services from "./components/Services";
 import TechStack from "./components/TechStack";
+import Hero from "./components/Hero";
 import Myself from "./components/Myself";
 import Social from "./components/Social";
 import Projects from "./components/Projects";
-import img1 from "../src/assets/img1.png";
-import img2 from "../src/assets/img2.png";
-import Certifications from "./components/Certifications";
 import Achivements from "./components/Achivements";
 import { Separator } from "./components/ui/separator";
 import Footer from "./components/Footer";
+import Certifications from "./components/Certifications.jsx";
+import logo from "./assets/logo.svg";
+import img1 from "../src/assets/img1.png";
+import img2 from "../src/assets/img2.png";
 const App = () => {
   const items = [
     {
