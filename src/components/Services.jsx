@@ -24,9 +24,11 @@ const Services = () => {
 
       {/* --- Block 2 (Data Engineer) --- */}
       <div className="space-y-1">
-        <h4 className="text-sm leading-none font-medium">Data Engineering</h4>
+        <h4 className="text-sm leading-none font-medium">
+          Frontend Development
+        </h4>
         <p className="text-muted-foreground text-sm">
-          Designing and building systems for collecting and analyzing data.
+          Designing and building Frontend .
         </p>
         {/* Added the horizontal separator back */}
         <Separator className="my-4" />
