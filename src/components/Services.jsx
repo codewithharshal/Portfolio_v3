@@ -28,7 +28,7 @@ const Services = () => {
           Frontend Development
         </h4>
         <p className="text-muted-foreground text-sm">
-          Designing and building Frontend .
+          Designing and building Frontend for Web and Mobile App.
         </p>
         {/* Added the horizontal separator back */}
         <Separator className="my-4" />
