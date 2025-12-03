@@ -26,8 +26,8 @@ const Myself = () => {
 
       <ul className="list-disc list-inside  space-y-2 mb-4">
         <li>Building and optimizing REST APIs</li>
-        <li>Authentication & Authorization (JWT, OAuth)</li>
-        <li>Database design and query optimization (SQL & NoSQL)</li>
+        <li>Authentication & Authorization</li>
+        <li>Database design and query optimization</li>
         <li>Backend performance tuning and debugging</li>
         <li>Writing modular, maintainable server-side code</li>
       </ul>

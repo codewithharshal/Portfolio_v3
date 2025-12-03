@@ -67,10 +67,6 @@ const techBadges = [
     name: "Postman",
     url: "https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white",
   },
-  {
-    name: "GraphQL",
-    url: "https://img.shields.io/badge/GraphQL-E10098?logo=graphql&logoColor=white",
-  },
 ];
 
 export default function TechStackSection() {

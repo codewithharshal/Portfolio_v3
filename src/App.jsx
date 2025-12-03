@@ -22,7 +22,7 @@ const App = () => {
       links: [
         { label: "About Me", ariaLabel: "About Me", href: "#about-me" },
         { label: "Social links", ariaLabel: "Social Links", href: "#social" },
-        { label: "Experience", ariaLabel: "Experience" },
+        // { label: "Experience", ariaLabel: "Experience" },
       ],
     },
     {
@@ -35,10 +35,10 @@ const App = () => {
           ariaLabel: "Personal Projects",
           href: "#projects",
         },
-        {
-          label: "Open Source Contribution",
-          ariaLabel: "Open Source Contribution",
-        },
+        // {
+        //   label: "Open Source Contribution",
+        //   ariaLabel: "Open Source Contribution",
+        // },
       ],
     },
     {
