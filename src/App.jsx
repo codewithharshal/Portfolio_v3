@@ -64,16 +64,16 @@ const App = () => {
   const ProjectsDetail = [
     {
       img: img1,
-      title: "RealEstate Landing Page",
+      title: "Yelpcamp Web Application",
       description:
-        "Real-estate landing page built with React, Tailwind CSS, reusable components, responsive UI, smooth animations, and optimized performance.",
-      link: "https://github.com/codewithharshal/RealEstate-Landing-Page",
+        "YelpCamp web application built with Node.js, Express, MongoDB, and EJS, featuring user authentication, campground CRUD operations, interactive maps, and optimized backend performance.",
+      link: "https://github.com/codewithharshal/YelpCamp",
     },
     {
       img: img2,
       title: "Ecommerce Web Application",
       description:
-        "E-commerce web app using Node.js/Express backend, React, MongoDB, authentication, CRUD operations, image uploads, and payment integration.",
+        "E-commerce web app using Node.js, Express backend, Reactjs, MongoDB, authentication, CRUD operations, image uploads, and payment integration with intractive UI, and Deployment on Vercel and Render",
       link: "https://github.com/codewithharshal/Ecommerce-Fullstack-Web-application",
     },
   ];
