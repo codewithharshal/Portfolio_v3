@@ -15,7 +15,7 @@ const Social = () => {
           <img
             src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"
             alt="GitHub"
-            className="h-[32px]"
+            className="h-8"
           />
         </a>
 
@@ -28,7 +28,7 @@ const Social = () => {
           <img
             src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
             alt="LinkedIn"
-            className="h-[32px]"
+            className="h-8"
           />
         </a>
 
@@ -41,19 +41,40 @@ const Social = () => {
           <img
             src="https://img.shields.io/badge/LeetCode-F89F1B?style=for-the-badge&logo=leetcode&logoColor=white"
             alt="LeetCode"
-            className="h-[32px]"
+            className="h-8"
           />
         </a>
-        {/* Mail */}
-        <a
-          href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=harshalsewatkar971@gmail.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        {/* Codeforce */}
+        <a href="" target="_blank" rel="noopener noreferrer">
           <img
-            src="https://img.shields.io/badge/Gmail-c71610?style=for-the-badge&logo=gmail&logoColor=white"
-            alt="Mail"
-            className="h-[32px]"
+            src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white"
+            alt="codeforces"
+            className="h-8"
+          />
+        </a>
+
+        {/* Codechef */}
+        <a href="" target="_blank" rel="noopener noreferrer">
+          <img
+            src="https://img.shields.io/badge/CodeChef-5C2D91?style=for-the-badge&logo=codechef&logoColor=white"
+            alt="codechef"
+            className="h-8"
+          />
+        </a>
+        {/* Codewars */}
+        <a href="" target="_blank" rel="noopener noreferrer">
+          <img
+            src="https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=white"
+            alt="codewars"
+            className="h-8"
+          />
+        </a>
+        {/* Hackerrank */}
+        <a href="" target="_blank" rel="noopener noreferrer">
+          <img
+            src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white"
+            alt="Hackerrank"
+            className="h-8"
           />
         </a>
       </div>

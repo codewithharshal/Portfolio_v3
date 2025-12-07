@@ -13,6 +13,8 @@ import Certifications from "./components/Certifications";
 import logo from "./assets/logo.svg";
 import img1 from "../src/assets/img1.png";
 import img2 from "../src/assets/img2.png";
+import img3 from "../src/assets/img3.png";
+import Exprience from "./components/Exprience";
 const App = () => {
   const items = [
     {
@@ -22,7 +24,7 @@ const App = () => {
       links: [
         { label: "About Me", ariaLabel: "About Me", href: "#about-me" },
         { label: "Social links", ariaLabel: "Social Links", href: "#social" },
-        // { label: "Experience", ariaLabel: "Experience" },
+        { label: "Experience", ariaLabel: "Experience", href: "#Experience" },
       ],
     },
     {
@@ -76,6 +78,36 @@ const App = () => {
         "E-commerce web app using Node.js, Express backend, Reactjs, MongoDB, authentication, CRUD operations, image uploads, and payment integration with intractive UI, and Deployment on Vercel and Render",
       link: "https://github.com/codewithharshal/Ecommerce-Fullstack-Web-application",
     },
+    {
+      img: img3,
+      title: "Unstuck Web Application",
+      description:
+        "Unstuck is a user-driven troubleshooting platform where individuals submit technical issues with digital devices, and community members provide diagnostics, guidance, and solutions.",
+      link: "https://github.com/codewithharshal/Unstuck",
+    },
+  ];
+
+  const experiences = [
+    {
+      role: "Full Stack Developer",
+      company: "Bharat Intern",
+      duration: "Feb 2024 – Mar 2024",
+      responsibilities: [
+        "Built production-level applications during internship: authentication system, expense calculator, and a full blog website.",
+        "Implemented secure login, signup, and protected routes for the authentication system.",
+        "Developed an expense calculator app with dynamic calculations and data persistence.",
+        "Created a complete blog platform with CRUD features and responsive design.",
+        "Collaborated with mentors and followed industry development practices.",
+      ],
+    },
+    {
+      role: "C++ Programmer",
+      company: "Internpe",
+      duration: "Dec 2023 – Jan 2024",
+      responsibilities: [
+        "Solved multiple Data Structures and Algorithms (DSA) problems to optimize backend performance and improve the efficiency of core application workflows.",
+      ],
+    },
   ];
 
   return (
@@ -105,12 +137,13 @@ const App = () => {
         <Hero />
         <Services />
         <Myself />
+        <Exprience experiences={experiences} />
         <Social />
         <div id="projects" className="w-full sm:w-3xl m-auto px-6">
           <h1 className="font-ins text-2xl mb-8">Projects</h1>
-          <div className="flex sm:justify-between justify-start gap-4 overflow-x-auto sm:overflow-visible">
+          <div className="flex sm:justify-between justify-start gap-4overflow-x-auto sm:overflow-x-auto md:overflow-x-auto     lg:overflow-x-auto overflow-auto">
             {ProjectsDetail.map((project, index) => (
-              <div key={index} className="flex-shrink-0">
+              <div key={index} className="shrink-0">
                 <Projects {...project} />
               </div>
             ))}
