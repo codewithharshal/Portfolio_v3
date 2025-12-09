@@ -67,6 +67,18 @@ const techBadges = [
     name: "Postman",
     url: "https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white",
   },
+  {
+    name: "NPM",
+    url: "https://img.shields.io/badge/NPM-CB3837?logo=npm&logoColor=white",
+  },
+  {
+    name: "Figma",
+    url: "https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white",
+  },
+  {
+    name: "Redux",
+    url: "https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=white",
+  },
 ];
 
 export default function TechStackSection() {
