@@ -79,6 +79,18 @@ const techBadges = [
     name: "Redux",
     url: "https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=white",
   },
+  {
+    name: "React Native",
+    url: "https://img.shields.io/badge/React%20Native-61DAFB?logo=react&logoColor=black",
+  },
+  {
+    name: "Expo",
+    url: "https://img.shields.io/badge/Expo-000020?logo=expo&logoColor=white",
+  },
+  {
+    name: "RESTful Architecture",
+    url: "https://img.shields.io/badge/RESTful%20Architecture-02569B?logo=api&logoColor=white",
+  },
 ];
 
 export default function TechStackSection() {
