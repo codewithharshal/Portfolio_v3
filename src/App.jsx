@@ -100,14 +100,6 @@ const App = () => {
         "Collaborated with mentors and followed industry development practices.",
       ],
     },
-    {
-      role: "C++ Programmer",
-      company: "Internpe",
-      duration: "Dec 2023 – Jan 2024",
-      responsibilities: [
-        "Solved multiple Data Structures and Algorithms (DSA) problems to optimize backend performance and improve the efficiency of core application workflows.",
-      ],
-    },
   ];
 
   return (

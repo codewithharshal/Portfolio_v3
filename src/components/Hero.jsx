@@ -8,8 +8,10 @@ const Hero = () => {
         <div>
           <p className="font-ins text-[20px]">Hey. I'm Harshal,</p>
           <h1 className="text-5xl">
-            A WEB <br /> <span className="font-ins italic"> & MOBILE APP</span>{" "}
-            <br /> DEVELOPER
+            A FULL
+            <br /> <span className="font-ins italic">
+              STACK WEB
+            </span> <br /> DEVELOPER
           </h1>
           <p className="mt-2">
             I develop scalable and responsive web & mobile applications,
