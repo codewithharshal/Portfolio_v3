@@ -44,14 +44,6 @@ const Social = () => {
             className="h-8"
           />
         </a>
-        {/* Codeforce */}
-        <a href="" target="_blank" rel="noopener noreferrer">
-          <img
-            src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white"
-            alt="codeforces"
-            className="h-8"
-          />
-        </a>
 
         {/* Codechef */}
         <a href="" target="_blank" rel="noopener noreferrer">
@@ -61,14 +53,7 @@ const Social = () => {
             className="h-8"
           />
         </a>
-        {/* Codewars */}
-        <a href="" target="_blank" rel="noopener noreferrer">
-          <img
-            src="https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=white"
-            alt="codewars"
-            className="h-8"
-          />
-        </a>
+
         {/* Hackerrank */}
         <a href="" target="_blank" rel="noopener noreferrer">
           <img
