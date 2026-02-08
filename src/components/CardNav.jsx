@@ -73,7 +73,7 @@ const CardNav = ({
     tl.to(
       cardsRef.current,
       { y: 0, opacity: 1, duration: 0.4, ease, stagger: 0.08 },
-      "-=0.1"
+      "-=0.1",
     );
 
     return tl;
@@ -179,7 +179,7 @@ const CardNav = ({
             className="card-nav-cta-button hidden md:inline-flex border-0 rounded-[calc(0.75rem-0.2rem)] px-4 items-center h-full font-medium cursor-pointer transition-colors duration-300"
             style={{ backgroundColor: buttonBgColor, color: buttonTextColor }}
           >
-            <a href="https://drive.google.com/file/d/1lwk-rn2smwljhar2ONip354LWbFXPYLR/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1OYmxaaP67kjyk0Ba16zsZ3930MPYkNQL/view?usp=drive_link">
               Get Resume
             </a>
           </button>
@@ -187,9 +187,9 @@ const CardNav = ({
 
         <div
           className={`card-nav-content absolute left-0 right-0 top-[60px] bottom-0 p-2 flex flex-col items-stretch gap-2 justify-start z-[1] ${
-            isExpanded
-              ? "visible pointer-events-auto"
-              : "invisible pointer-events-none"
+            isExpanded ?
+              "visible pointer-events-auto"
+            : "invisible pointer-events-none"
           } md:flex-row md:items-end md:gap-[12px]`}
           aria-hidden={!isExpanded}
         >
