@@ -46,7 +46,11 @@ const Social = () => {
         </a>
 
         {/* Codechef */}
-        <a href="" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.codechef.com/users/glad_mirth_17"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             src="https://img.shields.io/badge/CodeChef-5C2D91?style=for-the-badge&logo=codechef&logoColor=white"
             alt="codechef"
@@ -55,7 +59,11 @@ const Social = () => {
         </a>
 
         {/* Hackerrank */}
-        <a href="" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.hackerrank.com/profile/Travler"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white"
             alt="Hackerrank"
