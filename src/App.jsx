@@ -93,11 +93,10 @@ const App = () => {
       company: "Bharat Intern",
       duration: "Feb 2024 – Mar 2024",
       responsibilities: [
-        "Built production-level applications during internship: authentication system, expense calculator, and a full blog website.",
+        "Built small practice applications during internship: authentication system, expense calculator, and a full blog website.",
         "Implemented secure login, signup, and protected routes for the authentication system.",
         "Developed an expense calculator app with dynamic calculations and data persistence.",
         "Created a complete blog platform with CRUD features and responsive design.",
-        "Collaborated with mentors and followed industry development practices.",
       ],
     },
   ];
