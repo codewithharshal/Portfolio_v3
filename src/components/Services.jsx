@@ -8,7 +8,7 @@ const Services = () => {
       {/* --- Block 1 (Backend Dev) --- */}
       <div className="space-y-1">
         <h4 className="text-sm leading-none font-medium">
-          Backend Development
+          Backend Development (Nodejs)
         </h4>
         <p className="text-muted-foreground text-sm">
           Building robust, scalable server-side logic and APIs.
@@ -25,10 +25,10 @@ const Services = () => {
       {/* --- Block 2 (Data Engineer) --- */}
       <div className="space-y-1">
         <h4 className="text-sm leading-none font-medium">
-          Frontend Development
+          Full Stack Web Development (Reactjs & Nodejs)
         </h4>
         <p className="text-muted-foreground text-sm">
-          Designing and building Frontend for Web and Mobile App.
+          Designing and building Web App.
         </p>
         {/* Added the horizontal separator back */}
         <Separator className="my-4" />

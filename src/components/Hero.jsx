@@ -14,8 +14,8 @@ const Hero = () => {
             </span> <br /> DEVELOPER
           </h1>
           <p className="mt-2">
-            I develop scalable and responsive web & mobile applications,
-            focusing on clean design, usability, and efficient functionality.
+            I develop scalable and responsive web applications, focusing on
+            clean design, usability, and efficient functionality.
           </p>
         </div>
         <div>

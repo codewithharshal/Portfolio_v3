@@ -12,8 +12,7 @@ import Footer from "./components/Footer";
 import Certifications from "./components/Certifications";
 import logo from "./assets/logo.svg";
 import img1 from "../src/assets/img1.png";
-import img2 from "../src/assets/img2.png";
-import img3 from "../src/assets/img3.png";
+import DummyImage from "../src/assets/DummyImage.png";
 import Exprience from "./components/Exprience";
 const App = () => {
   const items = [
@@ -72,18 +71,11 @@ const App = () => {
       link: "https://github.com/codewithharshal/YelpCamp",
     },
     {
-      img: img2,
-      title: "Ecommerce Web Application",
+      img: DummyImage,
+      title: "Mini-Crm (RBAC)",
       description:
-        "E-commerce web app using Node.js, Express backend, Reactjs, MongoDB, authentication, CRUD operations, image uploads, and payment integration with intractive UI, and Deployment on Vercel and Render",
-      link: "https://github.com/codewithharshal/Ecommerce-Fullstack-Web-application",
-    },
-    {
-      img: img3,
-      title: "Unstuck Web Application",
-      description:
-        "Unstuck is a user-driven troubleshooting platform where individuals submit technical issues with digital devices, and community members provide diagnostics, guidance, and solutions.",
-      link: "https://github.com/codewithharshal/Unstuck",
+        "Mini-Crm web application built with Node.js, Nestjs, Postgress, featuring user authentication, role-based access control (RBAC), OpenAPI Standard Documentation and optimized backend performance.",
+      link: "https://github.com/codewithharshal/Mini-Crm",
     },
   ];
 
