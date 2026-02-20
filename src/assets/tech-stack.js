@@ -1,5 +1,9 @@
 const techBadges = [
   {
+    name: "Go",
+    url: "https://img.shields.io/badge/Go-20232A?logo=go&logoColor=61DAFB",
+  },
+  {
     name: "React",
     url: "https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB",
   },
@@ -66,14 +70,6 @@ const techBadges = [
   {
     name: "Redux",
     url: "https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=white",
-  },
-  {
-    name: "React Native",
-    url: "https://img.shields.io/badge/React%20Native-61DAFB?logo=react&logoColor=black",
-  },
-  {
-    name: "Expo",
-    url: "https://img.shields.io/badge/Expo-000020?logo=expo&logoColor=white",
   },
   {
     name: "RESTful Architecture",
