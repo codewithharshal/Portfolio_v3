@@ -1,5 +1,9 @@
 const techBadges = [
   {
+    name: "Go",
+    url: "https://img.shields.io/badge/Go-20232A?logo=go&logoColor=61DAFB",
+  },
+  {
     name: "React",
     url: "https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB",
   },
