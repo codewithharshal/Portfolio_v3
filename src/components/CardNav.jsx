@@ -179,7 +179,11 @@ const CardNav = ({
             className="card-nav-cta-button hidden md:inline-flex border-0 rounded-[calc(0.75rem-0.2rem)] px-4 items-center h-full font-medium cursor-pointer transition-colors duration-300"
             style={{ backgroundColor: buttonBgColor, color: buttonTextColor }}
           >
-            <a href="https://drive.google.com/file/d/1OYmxaaP67kjyk0Ba16zsZ3930MPYkNQL/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://drive.google.com/file/d/12J73OW_gThXQIfKY2PVY21H67BtU0_TA/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Get Resume
             </a>
           </button>
