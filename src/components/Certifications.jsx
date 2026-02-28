@@ -4,10 +4,6 @@ import Stack from "./Stack";
 const Certifications = () => {
   const images = [
     {
-      id: 1,
-      img: "https://res.cloudinary.com/dxauzebpd/image/upload/v1763291056/Certificates/ReactNative_w5ylc0.jpg",
-    },
-    {
       id: 2,
       img: "https://udemy-certificate.s3.amazonaws.com/image/UC-78e7d9be-223f-4c5a-ae43-b562eedaf54b.jpg",
     },
